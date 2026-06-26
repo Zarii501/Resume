@@ -1,0 +1,180 @@
+body {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    direction: rtl;
+}
+
+.container {
+    width: 850px;
+    background: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hashye {
+    background-color: rgb(167, 8, 135);
+    color: #fff;
+    width: 30%;
+    padding: 30px;
+    text-align: right;
+}
+
+.hashye .photo img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.hashye h2{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.mainclass{
+    width: 70%;
+    padding: 40px;
+    text-align: right;
+}
+
+.name{
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.intro{
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.section-title{
+    font-size: 20px;
+    color: rgb(167, 8, 135);
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(167, 8, 135, 0.476);
+    padding-bottom: 5px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+}
+
+.role {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.skill-name {
+    width: 100px;
+    font-weight: bold;
+}
+
+.skill-bar {
+    flex: 1;
+    height: 12px;
+    background-color: #ebeaea;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: rgb(188, 11, 153);
+    border-radius: 6px;
+    transition: width 0.5s ease;
+}
+
+
+
+.sections {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.skill-cell {
+    width: 25%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.skill-label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.example-cell {
+    width: 75%;
+    padding: 20px;
+    vertical-align: top;
+    color: #2c3e50;
+    font-size: 1.2em;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.skill-web a{
+    color: rgb(237, 92, 208);
+}
+
+.skill-web a:link{
+    color: rgb(143, 13, 203);
+    text-decoration-line: none;
+}
+
+.skill-web a:hover{
+    color: rgb(143, 13, 203);
+}
+
+.skill-web a:visited{
+    color: rgb(188, 11, 153);
+}
+
+.book-img {
+    width: 25%;
+    padding: 10px;
+}
+
+.book-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.book-desc{
+    background-color: #eee;
+    width: 70%;
+    padding: 20px;
+    animation: changecolor 1s infinite alternate;  
+}
+
+@keyframes changecolor{
+    0%{background-color: #eee;}
+    100%{background-color: rgb(237, 178, 225)}
+}
